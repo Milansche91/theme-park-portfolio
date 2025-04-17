@@ -1,0 +1,10 @@
+# ignore raw data if it’s large
+data_raw/
+
+# keep cleaned Parquet or small CSVs
+data_clean/
+
+# ignore OS and editor clutter
+.DS_Store
+__pycache__/
+*.ipynb_checkpoints
